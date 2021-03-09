@@ -4,3 +4,11 @@ body {
     padding: 0px;
     box-sizing: border-box;
 }
+
+.Link-red {
+    color: red !important;
+}
+
+.Link-red:hover {
+    text-decoration: revert;
+}
