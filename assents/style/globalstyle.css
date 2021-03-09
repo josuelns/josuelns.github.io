@@ -12,3 +12,32 @@ body {
 .Link-red:hover {
     text-decoration: revert;
 }
+
+.flex-conteiner{
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+@media(max-width: 600px){
+    .flex-conteiner{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.flex-conteiner section{
+    margin: 4px;
+}
+
+.flex-conteiner-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.flex-conteiner-wrap section{
+    margin: 4px;
+}
