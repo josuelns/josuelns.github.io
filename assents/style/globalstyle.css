@@ -41,3 +41,13 @@ body {
 .flex-conteiner-wrap section{
     margin: 4px;
 }
+
+footer {
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding: 15px 5px;
+}
+
+footer p{
+    margin: 25px;
+}
